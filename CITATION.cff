@@ -1,0 +1,36 @@
+# See https://citation-file-format.github.io/ for the spec.
+cff-version: 1.2.0
+message: "If you use this code or method, please cite the following paper."
+title: "TRSP / SBA·Tri: Topologically Regularized Side-Path for Long-Context LLMs"
+type: software
+authors:
+  - family-names: Tao
+    given-names: Yiheng
+  - family-names: Cheng
+    given-names: Kaiwen
+  - family-names: Lu
+    given-names: Yao
+  - family-names: Liu
+    given-names: Chang
+  - family-names: Chen
+    given-names: Jie
+repository-code: "https://github.com/Eziotao-tyd/TRSP"
+license: Apache-2.0
+preferred-citation:
+  type: conference-paper
+  title: "The Devil is in the Spectrum: Mitigating Representation Collapse in LLMs via Topologically Regularized Side-Path"
+  authors:
+    - family-names: Tao
+      given-names: Yiheng
+    - family-names: Cheng
+      given-names: Kaiwen
+    - family-names: Lu
+      given-names: Yao
+    - family-names: Liu
+      given-names: Chang
+    - family-names: Chen
+      given-names: Jie
+  year: 2026
+  conference:
+    name: "Proceedings of the 43rd International Conference on Machine Learning (ICML)"
+  url: "https://arxiv.org/abs/TBD"

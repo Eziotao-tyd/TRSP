@@ -1,0 +1,64 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===== Virtualenvs =====
+.venv/
+venv/
+env/
+
+# ===== IDE / OS =====
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ===== Notebooks =====
+.ipynb_checkpoints/
+
+# ===== Training artifacts =====
+wandb/
+lightning_logs/
+checkpoints/
+checkpoints_*/
+ckpt/
+runs/
+outputs/
+logs/
+
+# ===== Model weights (must NOT be committed; use HuggingFace Hub) =====
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.gguf
+final_model/
+
+# ===== Data (raw / processed; ship via Hub or external links) =====
+data/
+*.jsonl
+*.json
+*.csv
+*.parquet
+*.arrow
+!CITATION.cff
+
+# ===== CSV outputs from eval_spectral_metrics.py =====
+*sb_metrics*.csv
+
+# ===== Local secrets =====
+.env
+.env.*
+*.key
+*.pem
