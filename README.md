@@ -179,9 +179,6 @@ python examples/eval_spectral_metrics.py \
 - **MMLU**: standard public release; format as JSONL with
   `instruction / input / output` keys.
 
-Pre-trained checkpoints will be released at:
-`https://huggingface.co/<TBD>` *(coming soon)*.
-
 ---
 
 ## 6. Repository Layout
@@ -202,6 +199,8 @@ TRSP/
 ---
 
 ## 7. Citation
+
+The official ICML link for the paper can be found here: [https://icml.cc/virtual/2026/poster/64086](https://icml.cc/virtual/2026/poster/64086)
 
 If you find this work useful, please cite:
 
